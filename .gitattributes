@@ -1,0 +1,9 @@
+# Hide frontend / html from language stats
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+
+# Hide swagger / docs UI
+docs/** linguist-detectable=false
+static/** linguist-detectable=false
+templates/** linguist-detectable=false
